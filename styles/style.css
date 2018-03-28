@@ -1,0 +1,50 @@
+body {
+    background-color: #ECF5FC;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #C61486;
+}
+
+a, a:hover {
+    color: #334553;
+    text-decoration: none;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+h2 {
+    padding: 20px 0;
+}
+
+nav ul{
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 8px;
+}
+
+nav .nav-link {
+    
+}
+
+nav .nav-link.active {
+    border-bottom: 4px solid #90D9E4;
+}
+
+.gutter {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.bg-white {
+    background-color: #F9FAFC;
+}
