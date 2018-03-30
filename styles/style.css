@@ -1,6 +1,7 @@
 body {
     background-color: #ECF5FC;
     font-family: 'Poppins', sans-serif;
+    position: relative;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -20,6 +21,22 @@ h1{
 
 h2 {
     padding: 20px 0;
+}
+
+.button {
+    background: #90D9E4;
+    box-shadow: 2px 2px 5px 0 #6BADB7;
+    border-radius: 8px;
+    padding: 15px 30px;
+    margin-right: 40px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    display: inline-block;
+}
+
+.button.alt {
+    background: #97BED9;
+    box-shadow: 2px 2px 5px 0 #6191B2;
 }
 
 nav ul{
@@ -43,7 +60,68 @@ nav .nav-link.active {
 
 .link {
     border-bottom: 4px solid #3D4D58;
+    margin-botton: 60px;
+    font-weight: 600; 
 }
+
+.illustration {
+    background-position: center center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 43%;
+    position: absolute;
+    top: -10px;
+    right: -5%;
+    height: 500px;
+}
+
+.illustration.sailboat {
+    background-image: url(../images/sailboat.png)
+}
+
+.project-tile {
+    width: 40%;
+    margin: 0 4.8% 80px 4.8%;
+    display: inline-block;
+    background-position: center center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.project-tile.mapmoir {
+/*    background-image: url(../images/Project%201.jpg);*/
+}
+
+.project-tile .overlay {
+    position: absolute;
+    left: 5%;
+    right: 5%;
+    top: 5%;
+    bottom: 5%;  
+    background-color: rgba(255,255,255,.7);
+}
+
+
+.project-tile img {
+    width: 100%;
+}
+
+.about-content  {
+    width: 60%;
+    float: left;
+}
+
+.about-image {
+    width: 30%;
+    float: right;
+    margin-left: 10%;
+}
+
+.about-image img {
+    width: 100%;
+}
+
 .gutter {
     padding-left: 40px;
     padding-right: 40px;
@@ -55,4 +133,60 @@ nav .nav-link.active {
 
 .bg-white {
     background-color: #F9FAFC;
+}
+
+footer {
+    width: 100%;
+    clear: both;
+    padding: 20px;
+    color: #C61486;
+    box-sizing: border-box;
+}
+
+footer .link {
+    color: #C61486;
+    border-bottom-color: #C61486;
+}
+
+.icons-container {
+    float: left;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-right: 15px;
+}
+
+.icon.linkedin {
+    background-image: url(../images/linkedin.png);
+}
+
+.icon.twitter {
+    background-image: url(../images/twitter.png);
+}
+
+.icon.instagram {
+    background-image: url(../images/insta.png);
+}
+
+.illustrator-credit {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.copyright {
+    float: right;
+}
+
+
+@media only screen and (max-width: 480px) {
+    footer {
+        padding: 5%;
+    }
 }

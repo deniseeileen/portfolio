@@ -3,7 +3,7 @@
 
 <head>
 
-    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/style.css">
     <link href="https://fonts.googleapis.com/css?family=Poppins:400,600,700" rel="stylesheet">
@@ -13,6 +13,8 @@
 
 <body>
 
+    <div class="illustration sailboat"></div>
+    
     <header>
         <h1>DENISE E MARTIN</h1>
         <nav>
@@ -47,20 +49,36 @@
         
         <section class="projects gutter">
             
-            <a href="#" class="project-tile">
-                <img src="http://placekitten.com/g/200/200" alt="Mapmoir"/>
+            <a href="#" class="project-tile mapmoir">
+                <div class="overlay">
+                    <h4 class="project-title">MAPMOIR</h4>
+                    <p class="project-description">Finding shared experiences in writings across the globe.</p>
+                </div>
+                <img src="images/Project%201.jpg">
             </a>   
             
             <a href="#" class="project-tile pt-right-column">
-                <img src="http://placekitten.com/g/200/200" alt="Tamphlet"/>
+                <div class="overlay">
+                    <h4 class="project-title">TAMPHLET</h4>
+                    <p class="project-description">Tampon guide for teens.</p>
+                </div>
+                <img src="images/Project%202.jpg">
             </a>
             
             <a href="#" class="project-tile">
-                <img src="http://placekitten.com/g/200/200" alt="blocbox"/>
+                <div class="overlay">
+                    <h4 class="project-title">BLOCBOX</h4>
+                    <p class="project-description">Digital filing system.</p>
+                </div>
+                <img src="images/Project%203.jpg">
             </a>
             
             <a href="#" class="project-tile pt-right-column">
-                <img src="http://placekitten.com/g/200/200" alt="untitled"/>
+                <div class="overlay">
+                    <h4 class="project-title">BLOCJAMS</h4>
+                    <p class="project-description">Digital music player.</p>
+                </div>
+                <img src="images/Project%204.jpg"/>
             </a>
             
         </section>
@@ -72,45 +90,47 @@
             <div class="about-content">
                 <p>UX Designer based in NYC after a nomadic life across parts of the United States. When I'm not designing I'm likely working on a sewing project, deep into the pages of a good book, or writing for my happiness blog.</p>
 
-                <a href="#" class="link">Read the rest of my story.</a>
-
-                <a href="#" class="button">Connect with me</a>
-                <a href="#" class="button alt">Download resume</a>
+                <a href="#" class="link">READ THE REST OF MY STORY.</a>
+                
+                <div>
+                    <a href="#" class="button">Connect with me</a>
+                    <a href="#" class="button alt">Download resume</a>
+                </div>
+                
             </div>
             
             <div class="about-image">
-                <img src="http://placekitten.com/g/200/200" alt="denise's beautiful face"/>
+                <img src="images/headshot.jpg" alt="denise's beautiful face"/>
             </div>
             
         </section>
 
     </main>
 
-    <footer>
+    <footer class="bg-white">
     
-        <div class="icon-container">   
+        <span class="icon-container">   
             <a href="#">
-                <span class="icon linkedin"></span>
+                <span class="icon linkedin" />
             </a>
             
             <a href="#">
-                <span class="icon twitter"></span>
-            </a>
+                <span class="icon twitter" />
+            </a> 
             
             <a href="#">
                 <span class="icon instagram" />
             </a>      
-        </div>
+        </span>
         
-
-        <div>
-            <p>Woodcut illustrations by <a href="http://www.noordinaryberry.com">Christina Berry</a></p>
-        </div>
+        <!--
+        <span class="illustrator-credit">Woodcut illustrations by <a class="link" href="http://www.noordinaryberry.com">Christina Berry</a></span>
+        -->
 
     
-        <div class="copyright">
+        <span class="copyright">
             © DENISE E MARTIN
-        </div>
+        </span>
     
     </footer>
 
