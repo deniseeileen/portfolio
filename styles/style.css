@@ -2,6 +2,7 @@ body {
     background-color: #ECF5FC;
     font-family: 'Poppins', sans-serif;
     position: relative;
+    overflow-x: hidden;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -79,6 +80,10 @@ nav .nav-link.active {
     background-image: url(../images/sailboat.png)
 }
 
+.mini-bio.gutter {
+    width: 60%;
+}
+
 .project-tile {
     width: 40%;
     margin: 0 4.8% 80px 4.8%;
@@ -123,8 +128,8 @@ nav .nav-link.active {
 }
 
 .gutter {
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .gutter p{
