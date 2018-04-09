@@ -5,7 +5,7 @@ body {
     overflow-x: hidden;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h5, h6 {
     color: #C61486;
 }
 
@@ -22,6 +22,13 @@ h1{
 
 h2 {
     padding: 20px 0;
+    font-size: 30px;
+}
+
+h4 {
+    color: #3E3B3B;
+    text-align: center;
+    font-size: 26px;
 }
 
 .button {
@@ -33,6 +40,7 @@ h2 {
     margin-top: 60px;
     margin-bottom: 60px;
     display: inline-block;
+    font-weight: 600;
 }
 
 .button.alt {
@@ -59,10 +67,10 @@ nav .nav-link.active {
     border-bottom: 4px solid #90D9E4;
 }
 
-.link {
+.bio-link {
     border-bottom: 4px solid #3D4D58;
     margin-botton: 60px;
-    font-weight: 600; 
+    font-weight: 600;
 }
 
 .illustration {
@@ -78,6 +86,14 @@ nav .nav-link.active {
 
 .illustration.sailboat {
     background-image: url(../images/sailboat.png)
+}
+
+.illustration.compass {
+    background-image: url(../images/compass%20800px.png)
+}
+
+.illustration.bottle {
+    background-image: url(../images/MessageInABottle%20800px.png)
 }
 
 .mini-bio.gutter {
@@ -107,9 +123,13 @@ nav .nav-link.active {
     background-color: rgba(255,255,255,.7);
 }
 
-
 .project-tile img {
     width: 100%;
+}
+
+.project-description {
+    font-size: 12px;
+    text-align: center;
 }
 
 .about-content  {
@@ -134,6 +154,26 @@ nav .nav-link.active {
 
 .gutter p{
     font-size: 28px; 
+}
+
+.bio {
+    width: 60%;
+    padding-left:10%;
+    padding-right:20%;
+}
+
+.bio p {
+    font-size: 18px;
+}
+
+.contact {
+    width: 60%;
+    padding-left:10%;
+    padding-right:20%; 
+}
+
+.contact p {
+    font-size: 28px;
 }
 
 .bg-white {
@@ -176,13 +216,6 @@ footer .link {
 
 .icon.instagram {
     background-image: url(../images/insta.png);
-}
-
-.illustrator-credit {
-    position: absolute;
-    left: 0;
-    width: 100%;
-    text-align: center;
 }
 
 .copyright {
